@@ -17,7 +17,7 @@ function App() {
 
       <div style={{ padding: '1rem', width: "100%" }}>
         <Routes>
-          <Route path="/Course" element={<CourseList />} />
+          <Route path="/" element={<CourseList />} />
 
           <Route path="/Course/:id" element={<CourseDetail />} />
 
